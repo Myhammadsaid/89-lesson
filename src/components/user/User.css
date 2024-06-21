@@ -1,0 +1,43 @@
+.user h1 {
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.user__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.user__card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 200px;
+  overflow: hidden;
+  gap: 8px;
+}
+
+.user__card img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.user__card h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.user__delete {
+  position: absolute;
+  background: none;
+  border: none;
+  right: 0;
+}
